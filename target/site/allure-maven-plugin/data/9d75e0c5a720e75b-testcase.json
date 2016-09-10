@@ -1,0 +1,77 @@
+{
+  "uid" : "9d75e0c5a720e75b",
+  "name" : "testcase3",
+  "title" : "Testcase 3",
+  "time" : {
+    "start" : 1473400641910,
+    "stop" : 1473400642097,
+    "duration" : 187
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "This is the third test case",
+    "type" : "TEXT"
+  },
+  "severity" : "TRIVIAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5a7b5531433d763",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "testcase3",
+    "title" : "This is the third test step for the third test case",
+    "time" : {
+      "start" : 1473400641910,
+      "stop" : 1473400642097,
+      "duration" : 187
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "testlogfile",
+      "source" : "86f0283d-6ada-4929-8e45-d4436c78c199-attachment.txt",
+      "type" : "text/plain",
+      "size" : 44,
+      "uid" : "e98eed587e7834f6"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "feature",
+    "value" : "Allure test report check"
+  }, {
+    "name" : "host",
+    "value" : "XE-T-NITINGO"
+  }, {
+    "name" : "thread",
+    "value" : "5460@XE-T-NITINGO.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

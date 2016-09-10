@@ -1,0 +1,71 @@
+{
+  "uid" : "19a115a0bccb3f1a",
+  "name" : "testcase1",
+  "title" : "Testcase 1",
+  "time" : {
+    "start" : 1473400641785,
+    "stop" : 1473400641878,
+    "duration" : 93
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "This is the first test case",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5a7b5531433d763",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "testcase1",
+    "title" : "This is the first test step for the first test case",
+    "time" : {
+      "start" : 1473400641863,
+      "stop" : 1473400641878,
+      "duration" : 15
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "New feature"
+  }, {
+    "name" : "host",
+    "value" : "XE-T-NITINGO"
+  }, {
+    "name" : "thread",
+    "value" : "5460@XE-T-NITINGO.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

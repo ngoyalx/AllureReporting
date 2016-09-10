@@ -1,0 +1,69 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 3,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1473400641785,
+        "stop" : 1473400642097,
+        "duration" : 312
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "c97d6f99a802a03b",
+        "message" : "AssertionError: expected [true] but found [false]",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "5a7b5531433d763",
+        "title" : "Suite : Test",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "title" : "Allure test report check",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "title" : "New feature",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

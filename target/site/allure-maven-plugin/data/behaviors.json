@@ -1,0 +1,82 @@
+{
+  "features" : [ {
+    "title" : "New feature",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "b2f93c7636b59697",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "19a115a0bccb3f1a",
+        "name" : "testcase1",
+        "title" : "Testcase 1",
+        "time" : {
+          "start" : 1473400641785,
+          "stop" : 1473400641878,
+          "duration" : 93
+        },
+        "severity" : "CRITICAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Allure test report check",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "f83f7bd9f85b6e66",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "d58593506d7b3165",
+        "name" : "testcase2",
+        "title" : "Testcase 2",
+        "time" : {
+          "start" : 1473400641878,
+          "stop" : 1473400641910,
+          "duration" : 32
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "9d75e0c5a720e75b",
+        "name" : "testcase3",
+        "title" : "Testcase 3",
+        "time" : {
+          "start" : 1473400641910,
+          "stop" : 1473400642097,
+          "duration" : 187
+        },
+        "severity" : "TRIVIAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
